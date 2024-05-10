@@ -27,17 +27,33 @@
 	<link href="views/plugins/quill/quill.snow.css" rel="stylesheet">
 	<link href="views/plugins/quill/quill.bubble.css" rel="stylesheet">
 	<link href="views/plugins/remixicon/remixicon.css" rel="stylesheet">
-	<link href="views/plugins/simple-datatables/style.css" rel="stylesheet">
+	<!--<link href="views/plugins/simple-datatables/style.css" rel="stylesheet">-->
+	<link rel="stylesheet" type="text/css" href="views/plugins/datatable/css/datatable.css">
 
 	<!-- Template Main CSS File -->
 	<link href="views/css/style.css" rel="stylesheet">
+
+	<!-- jQuery 3 -->
+	<script src="views/plugins/jquery/jquery.min.js"></script>
+	<!-- jQuery UI 1.11.4 -->
+	<script src="views/plugins/jquery-ui/jquery-ui.js"></script>
+	<!-- Bootstrap js-->
+	<script src="views/plugins/bootstrap/js/bootstrap.min.js"></script>
+	<!-- SweetAlert js-->
+	<script src="views/plugins/sweetalert/sweetalert.js"></script>
+	<!-- Datatable js-->
+	<script src="views/plugins/datatable/js/datatable.js"></script>
 </head>
 
 <body>
 	<?php
 	if (isset($_SESSION["sessionCorsae"]) && $_SESSION["sessionCorsae"] === "ok") {
 		$carpeta = "views/moduls/";
-		$class = $carpeta . $_GET["ruta"] . '.php';
+		if (isset($_GET["ruta"])) {
+			$class = $carpeta . $_GET["ruta"] . '.php';
+		} else {
+			echo "<script> window.location = '" . $_SESSION["template"] . "'; </script>";
+		}
 
 		if (!file_exists($class)) {
 			include "moduls/404.php";
@@ -77,7 +93,6 @@
 	<script src="views/plugins/chart.js/chart.umd.js"></script>
 	<script src="views/plugins/echarts/echarts.min.js"></script>
 	<script src="views/plugins/quill/quill.min.js"></script>
-	<script src="views/plugins/simple-datatables/simple-datatables.js"></script>
 	<script src="views/plugins/tinymce/tinymce.min.js"></script>
 	<script src="views/plugins/php-email-form/validate.js"></script>
 

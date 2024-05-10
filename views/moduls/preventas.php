@@ -243,110 +243,110 @@
 
                     <div class="card-body">
                         <h5 class="card-title">Ventas Recientes<span>| Hoy</span></h5>
+                        <div class=" table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>
+                                            Folio
+                                        </th>
+                                        <th>Fecha</th>
+                                        <th>Optometrista</th>
+                                        <th>Nombre Cliente</th>
+                                        <th>Total</th>
+                                        <th>Acciones</th>
 
-                        <table class="table table-borderless datatable">
-                            <thead>
-                                <tr>
-                                    <th>
-                                        Folio
-                                    </th>
-                                    <th>Fecha</th>
-                                    <th>Optometrista</th>
-                                    <th>Nombre Cliente</th>
-                                    <th>Total</th>
-                                    <th>Acciones</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>26/02/2024</td>
+                                        <td>Curicó</td>
+                                        <td>Lorem ipsum dolor</td>
+                                        <td>$ 1,200.00</td>
+                                        <td>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal"><i class="bi bi-star me-1"></i>Detalle</button>
+                                            <button type="button" class="btn btn-danger"><i class="bi bi-clipboard-x me-1"></i>Cancelar</button>
+                                            <button type="button" class="btn btn-success"><i class="bi bi-clipboard-check me-1"></i>Convertir</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>26/02/2024</td>
+                                        <td>Dhanbad</td>
+                                        <td>Lorem ipsum dolor</td>
+                                        <td>$ 1,500.00</td>
+                                        <td>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal"><i class="bi bi-star me-1"></i>Detalle</button>
+                                            <button type="button" class="btn btn-danger"><i class="bi bi-clipboard-x me-1"></i>Cancelar</button>
+                                            <button type="button" class="btn btn-success"><i class="bi bi-clipboard-check me-1"></i>Convertir</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>26/02/2024</td>
+                                        <td>Norman</td>
+                                        <td>Lorem ipsum dolor</td>
+                                        <td>$ 1,300.00</td>
+                                        <td>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal"><i class="bi bi-star me-1"></i>Detalle</button>
+                                            <button type="button" class="btn btn-danger"><i class="bi bi-clipboard-x me-1"></i>Cancelar</button>
+                                            <button type="button" class="btn btn-success"><i class="bi bi-clipboard-check me-1"></i>Convertir</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>24/02/2024</td>
+                                        <td>Amqui</td>
+                                        <td>Lorem ipsum dolor</td>
+                                        <td>$ 1,200.00</td>
+                                        <td>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal"><i class="bi bi-star me-1"></i>Detalle</button>
+                                            <button type="button" class="btn btn-danger"><i class="bi bi-clipboard-x me-1"></i>Cancelar</button>
+                                            <button type="button" class="btn btn-success"><i class="bi bi-clipboard-check me-1"></i>Convertir</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>23/02/2024</td>
+                                        <td>Kempten</td>
+                                        <td>Lorem ipsum dolor</td>
+                                        <td>$ 1,100.00</td>
+                                        <td>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal"><i class="bi bi-star me-1"></i>Detalle</button>
+                                            <button type="button" class="btn btn-danger"><i class="bi bi-clipboard-x me-1"></i>Cancelar</button>
+                                            <button type="button" class="btn btn-success"><i class="bi bi-clipboard-check me-1"></i>Convertir</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>22/02/2024</td>
+                                        <td>Enines</td>
+                                        <td>Lorem ipsum dolor</td>
+                                        <td>$ 800.00</td>
+                                        <td>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal"><i class="bi bi-star me-1"></i>Detalle</button>
+                                            <button type="button" class="btn btn-danger"><i class="bi bi-clipboard-x me-1"></i>Cancelar</button>
+                                            <button type="button" class="btn btn-success"><i class="bi bi-clipboard-check me-1"></i>Convertir</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>22/02/2024</td>
+                                        <td>Neath</td>
+                                        <td>Lorem ipsum dolor</td>
+                                        <td>$ 700.00</td>
+                                        <td>
+                                            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal"><i class="bi bi-star me-1"></i>Detalle</button>
+                                            <button type="button" class="btn btn-danger"><i class="bi bi-clipboard-x me-1"></i>Cancelar</button>
+                                            <button type="button" class="btn btn-success"><i class="bi bi-clipboard-check me-1"></i>Convertir</button>
+                                        </td>
+                                    </tr>
 
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>1</td>
-                                    <td>26/02/2024</td>
-                                    <td>Curicó</td>
-                                    <td>Lorem ipsum dolor</td>
-                                    <td>$ 1,200.00</td>
-                                    <td>
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal"><i class="bi bi-star me-1"></i>Detalle</button>
-                                        <button type="button" class="btn btn-danger"><i class="bi bi-clipboard-x me-1"></i>Cancelar</button>
-                                        <button type="button" class="btn btn-success"><i class="bi bi-clipboard-check me-1"></i>Convertir</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>2</td>
-                                    <td>26/02/2024</td>
-                                    <td>Dhanbad</td>
-                                    <td>Lorem ipsum dolor</td>
-                                    <td>$ 1,500.00</td>
-                                    <td>
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal"><i class="bi bi-star me-1"></i>Detalle</button>
-                                        <button type="button" class="btn btn-danger"><i class="bi bi-clipboard-x me-1"></i>Cancelar</button>
-                                        <button type="button" class="btn btn-success"><i class="bi bi-clipboard-check me-1"></i>Convertir</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>3</td>
-                                    <td>26/02/2024</td>
-                                    <td>Norman</td>
-                                    <td>Lorem ipsum dolor</td>
-                                    <td>$ 1,300.00</td>
-                                    <td>
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal"><i class="bi bi-star me-1"></i>Detalle</button>
-                                        <button type="button" class="btn btn-danger"><i class="bi bi-clipboard-x me-1"></i>Cancelar</button>
-                                        <button type="button" class="btn btn-success"><i class="bi bi-clipboard-check me-1"></i>Convertir</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>4</td>
-                                    <td>24/02/2024</td>
-                                    <td>Amqui</td>
-                                    <td>Lorem ipsum dolor</td>
-                                    <td>$ 1,200.00</td>
-                                    <td>
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal"><i class="bi bi-star me-1"></i>Detalle</button>
-                                        <button type="button" class="btn btn-danger"><i class="bi bi-clipboard-x me-1"></i>Cancelar</button>
-                                        <button type="button" class="btn btn-success"><i class="bi bi-clipboard-check me-1"></i>Convertir</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>5</td>
-                                    <td>23/02/2024</td>
-                                    <td>Kempten</td>
-                                    <td>Lorem ipsum dolor</td>
-                                    <td>$ 1,100.00</td>
-                                    <td>
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal"><i class="bi bi-star me-1"></i>Detalle</button>
-                                        <button type="button" class="btn btn-danger"><i class="bi bi-clipboard-x me-1"></i>Cancelar</button>
-                                        <button type="button" class="btn btn-success"><i class="bi bi-clipboard-check me-1"></i>Convertir</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>6</td>
-                                    <td>22/02/2024</td>
-                                    <td>Enines</td>
-                                    <td>Lorem ipsum dolor</td>
-                                    <td>$ 800.00</td>
-                                    <td>
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal"><i class="bi bi-star me-1"></i>Detalle</button>
-                                        <button type="button" class="btn btn-danger"><i class="bi bi-clipboard-x me-1"></i>Cancelar</button>
-                                        <button type="button" class="btn btn-success"><i class="bi bi-clipboard-check me-1"></i>Convertir</button>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td>7</td>
-                                    <td>22/02/2024</td>
-                                    <td>Neath</td>
-                                    <td>Lorem ipsum dolor</td>
-                                    <td>$ 700.00</td>
-                                    <td>
-                                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#largeModal"><i class="bi bi-star me-1"></i>Detalle</button>
-                                        <button type="button" class="btn btn-danger"><i class="bi bi-clipboard-x me-1"></i>Cancelar</button>
-                                        <button type="button" class="btn btn-success"><i class="bi bi-clipboard-check me-1"></i>Convertir</button>
-                                    </td>
-                                </tr>
-
-                            </tbody>
-                        </table>
-
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
 
                 </div>

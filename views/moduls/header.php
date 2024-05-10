@@ -175,7 +175,7 @@
         <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
           <li class="dropdown-header">
             <h6><?php echo $_SESSION["nombre"] ?></h6>
-            <span><?php echo $_SESSION["sesion"] ?></span>
+            <span><?php echo $_SESSION["perfil"] ?></span>
           </li>
           <li>
             <hr class="dropdown-divider">

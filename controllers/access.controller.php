@@ -21,12 +21,13 @@ class AccessController
 
                 $respuesta = ModelTemplate::mdlShowUsers($tabla, $item, $valor);
 
-                if ($respuesta["email"] == $_POST["email"] && $respuesta["password"] == $encriptar) {
+                if ($respuesta["correo"] == $_POST["email"] && $respuesta["password"] == $encriptar) {
                     $_SESSION["sessionCorsae"] = "ok";
                     $_SESSION["id"] = $respuesta["id"];
                     $_SESSION["nombre"] = $respuesta["nombre"];
                     $_SESSION["grupo"] = $respuesta["grupo"];
                     $_SESSION["perfil"] = $respuesta["perfil"];
+                    $_SESSION["template"] = $respuesta["template"];
                     $dashboard = $respuesta["template"];
 
                     echo '<script>

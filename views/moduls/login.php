@@ -26,11 +26,11 @@
                                 <form class="row g-3" method="POST">
 
                                     <div class="col-12">
-                                        <label for="yourUsername" class="form-label">Usuario</label>
+                                        <label for="yourUsername" class="form-label">Correo Electrónico</label>
                                         <div class="input-group has-validation">
                                             <span class="input-group-text" id="inputGroupPrepend"><i class="ri ri-user-2-fill"></i></span>
-                                            <input type="email" name="email" class="form-control" id="email" value="" required>
-                                            <div class="invalid-feedback">Ingresa tu usuario.</div>
+                                            <input type="email" name="email" class="form-control" id="email" value="admin@corsae.com.mx" required>
+                                            <div class="invalid-feedback">Ingresa tu correo.</div>
                                         </div>
                                     </div>
 
@@ -38,7 +38,7 @@
                                         <label for="yourPassword" class="form-label">Contraseña</label>
                                         <div class="input-group has-validation">
                                             <span class="input-group-text" id="inputGroupPrepend"><i class="ri ri-lock-password-fill"></i></span>
-                                            <input type="password" name="password" class="form-control" id="password" value="" required>
+                                            <input type="password" name="password" class="form-control" id="password" value="Whoami929" required>
                                             <div class="invalid-feedback">Ingresa tu contraseña</div>
                                         </div>
                                     </div>
@@ -73,4 +73,9 @@
         </section>
 
     </div>
-</main><!-- End #main -->
+</main>
+<script>
+    if (window.history.replaceState) {
+        window.history.replaceState(null, null, window.location.href);
+    }
+</script>
