@@ -98,6 +98,7 @@
 
 	<!-- Template Main JS File -->
 	<script src="views/js/main.js"></script>
+	<script src="views/js/clock.js"></script>
 </body>
 
 </html>

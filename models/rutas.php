@@ -9,7 +9,7 @@ class Ruta
 	public function ctrRuta()
 	{
 
-		return "http://localhost/templates-admin/corsae/";
+		return "http://localhost/corsae/";
 	}
 
 	/*
@@ -18,6 +18,6 @@ class Ruta
 	public function ctrRutaServidor()
 	{
 
-		return "http://localhost/templates-admin/corsae/";
+		return "http://localhost/corsae/";
 	}
 }

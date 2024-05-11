@@ -7,13 +7,42 @@
     </a>
     <i class="bi bi-list toggle-sidebar-btn"></i>
   </div><!-- End Logo -->
-
+  <!--
   <div class="search-bar">
     <form class="search-form d-flex align-items-center" method="POST" action="#">
       <input type="text" name="query" placeholder="Search" title="Enter search keyword">
       <button type="submit" title="Search"><i class="bi bi-search"></i></button>
     </form>
-  </div><!-- End Search Bar -->
+  </div>-->
+  <div class="col-lg-7 search-bar">
+    <div class="row">
+      <div class="col-lg-5 col-md-5 col-sm-5">
+        <div class="pagetitle">
+          <h1>Bienvenid@ <?php echo $_SESSION["nombre"] ?></h1>
+
+        </div>
+
+      </div>
+      <div class="col-lg-5 col-md-5 col-sm-5">
+        <div class="date">
+          <span class="date-format" id="weekDay" class="weekDay"></span>,
+          <span class="date-format" id="day" class="day"></span> de
+          <span class="date-format" id="month" class="month"></span> del
+          <span class="date-format" id="year" class="year"></span>
+        </div>
+
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2">
+
+        <div class="clock">
+          <span class="clock-format" id="hours" class="hours"></span> :
+          <span class="clock-format" id="minutes" class="minutes"></span> :
+          <span class="clock-format" id="seconds" class="seconds"></span>
+        </div>
+      </div>
+    </div>
+
+  </div>
 
   <nav class="header-nav ms-auto">
     <ul class="d-flex align-items-center">
@@ -169,7 +198,7 @@
 
         <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
           <img src="views/images/profile.png" alt="Profile" class="rounded-circle">
-          <span class="d-none d-md-block dropdown-toggle ps-2"><?php echo $_SESSION["nombre"] ?></span>
+          <span class="d-none d-md-block dropdown-toggle ps-2"></span>
         </a><!-- End Profile Iamge Icon -->
 
         <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
